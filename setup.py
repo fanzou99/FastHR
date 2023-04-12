@@ -5,7 +5,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name = "fasthr",
-    version = "1.1",
+    version = "1.0",
     author = "Fan Zou",
     author_email = "fuz64@psu.edu",
     description = "A Python function that efficiently and accurately calculates hardness ratios for X-ray sources using a Bayesian approach",

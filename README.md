@@ -48,7 +48,7 @@ Usage
 
 Further usages could be found in example.ipynb.
 
-The algorithm is explained in Appendix A of Zou et al. (2023). Please consider citing this publication if you use FastHR in your research.
+The algorithm is explained in Appendix A of Zou et al. (submitted). Please consider citing this publication if you use FastHR in your research.
 
 Contact
 -------
