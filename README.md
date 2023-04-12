@@ -3,9 +3,12 @@ FastHR
 
 FastHR is a Python function that efficiently and accurately calculates hardness ratios for X-ray sources using a Bayesian approach.
 
+NOTE!!!: I have not released FastHR yet. It is scheduled to release after th
+
 Install
 -------
 FastHR can be installed using pip.
+	
 	pip install FastHR
 
 Usage
