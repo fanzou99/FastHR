@@ -6,7 +6,6 @@ FastHR is a Python function efficiently and accurately calculating hardness rati
 Quick example
 -------------
 
-.. code::
 	from fasthr import *
 	import numpy as np
 	
