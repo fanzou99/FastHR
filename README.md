@@ -1,7 +1,7 @@
 FastHR
 ======
 
-FastHR is a Python function efficiently and accurately calculating hardness ratios for X-ray sources using a Bayesian approach.
+FastHR is a Python function that efficiently and accurately calculates hardness ratios for X-ray sources using a Bayesian approach.
 
 Usage
 -----
@@ -31,13 +31,13 @@ Usage
     xi_H = 5 # the expected hard-band background count rate in the source region
     
     # calculate the cumulative posterior of HR.
-    # In this example, I assume the background intensity is exactly known.
+    # In this example, I assume the background intensity to be exactly known.
     # If you don't want to adopt this assumption, see the example notebook for more details.
     myhr = fasthr(S, H, e_S, e_H, psi1_S, psi2_S, psi1_H, psi2_H, xi_S = xi_S, xi_H = xi_H)
 	myhr.init_hrcdf("fixed")
 	hrgrid, cdfgrid = myhr.calc_hrcdf(ygrid, lnI)
 	
-	# obtain characteristic point estimators of HR.
+	# obtain characteristic point estimators.
 	lower_err, median, upper_err = np.interp([0.16, 0.5, 0.84], cdfgrid, hrgrid)
 
 Further usages could be found in example.ipynb.
