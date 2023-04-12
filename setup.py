@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-	name = "fasthr",
+    name = "fasthr",
     version = "1.0",
     author = "Fan Zou",
     author_email = "fuz64@psu.edu",
@@ -9,7 +9,7 @@ setup(
     url = "https://github.com/fanzou99/FastHR",
     install_requires = ["numpy", "scipy"],
     classifiers = [
-		"Programming Language :: Python :: 3",
-		"License :: OSI Approved :: MIT License",
-	]
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+    ]
 )
