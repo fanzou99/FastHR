@@ -3,8 +3,10 @@ FastHR
 
 FastHR is a Python function efficiently and accurately calculating hardness ratios for X-ray sources using a Bayesian approach.
 
-Quick example
--------------
+Usage
+-----
+
+> Below is a quick example.
 
 	from fasthr import *
 	import numpy as np
@@ -38,7 +40,7 @@ Quick example
 	# obtain characteristic point estimators of HR.
 	lower_err, median, upper_err = np.interp([0.16, 0.5, 0.84], cdfgrid, hrgrid)
 
-Further example and documentation could be found in example.ipynb.
+Further usages could be found in example.ipynb.
 The algorithm is explained in Appendix A of Zou et al. (submitted). Please consider citing this publication if you use FastHR in your research.
 
 Contact
