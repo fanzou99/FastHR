@@ -14,7 +14,7 @@ Usage
 
 > Below is a quick example.
 
-    from fasthr import *
+    from fasthr.main import *
     import numpy as np
     
     # setup the priors
