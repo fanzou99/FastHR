@@ -22,11 +22,8 @@ Usage
     psi1_H, psi2_H = 1., 0. # hard-band prior
     
     # Step 0, prepare some external tables.
-    # This step only needs to be done once.
     ygrid = np.linspace(0., 1., 100)
     lnI = tabul_lnI(100, 100, ygrid, psi1_S, psi1_H)
-    np.save("ygrid.npy", ygrid)
-    np.save("lnI.npy", lnI)
     
     # set up the data
     S = 10 # total soft-band counts in the source region
