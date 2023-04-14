@@ -43,7 +43,7 @@ Usage
     # obtain characteristic point estimators.
     lower_err, median, upper_err = np.interp([0.16, 0.5, 0.84], cdfgrid, hrgrid)
 
-Further usages could be found in example.ipynb (still working on it...).
+Further usages could be found under the *examples* folder.
 
 The algorithm is explained in Appendix A of Zou et al. (submitted). Please consider citing this publication if you use FastHR in your research.
 
