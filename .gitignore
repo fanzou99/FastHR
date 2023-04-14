@@ -1,2 +1,5 @@
 
 .DS_Store
+examples/.ipynb_checkpoints/step_by_step_example-checkpoint.ipynb
+examples/lnI_Smax200_Hmax200_psi1S1.0_psi1H1.0.npy
+examples/ygrid_Smax200_Hmax200_psi1S1.0_psi1H1.0.npy
