@@ -35,7 +35,7 @@ Usage
     
     # calculate the cumulative posterior of HR.
     # In this example, I assume the background intensity to be exactly known.
-    # If you don't want to adopt this assumption, see the example notebook for more details.
+    # If you don't want to adopt this assumption, see the examples folder for more details.
     myhr = fasthr(S, H, e_S, e_H, psi1_S, psi2_S, psi1_H, psi2_H, xi_S = xi_S, xi_H = xi_H)
     myhr.init_hrcdf("fixed")
     hrgrid, cdfgrid = myhr.calc_hrcdf(ygrid, lnI)
@@ -45,7 +45,7 @@ Usage
 
 Further usages could be found under the *examples* folder.
 
-The algorithm is explained in Appendix A of Zou et al. (submitted). Please consider citing this publication if you use FastHR in your research.
+The algorithm is explained in Appendix A of Zou et al. (2023). Please consider citing this publication if you use FastHR in your research.
 
 Contact
 -------
