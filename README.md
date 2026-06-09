@@ -49,4 +49,4 @@ The algorithm is explained in Appendix A of [Zou et al. (2023)](https://arxiv.or
 
 Contact
 -------
-If you have any queries or feedback, feel free to contact Fan Zou (Penn State University; fuz64@psu.edu).
+If you have any queries or feedback, feel free to contact Fan Zou (fanzou01@gmail.com).
